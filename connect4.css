@@ -1,0 +1,43 @@
+.main {
+    display: flex;
+}
+
+.playerTurn {
+    width: 100px;
+    margin-top: 250px;
+    margin-left: 120px;
+}
+
+p {
+    color: blue;
+    font-size: 25px;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+#board{
+    margin-left: 35%;
+}
+
+#board table {
+    border: 3px blue outset;
+    background-color: blue;
+}
+#board td {
+    width: 2cm;
+    height: 2cm;
+    margin-left: 30%;
+    border: 2px blue inset;
+    border-radius: 2cm;
+    background-color: white;
+    cursor: pointer;
+}
+#board td.player1 {
+    background-color: red;
+}
+#board td.player2 {
+    background-color: yellow;
+}
